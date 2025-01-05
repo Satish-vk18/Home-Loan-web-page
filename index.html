@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <!--nav section start-->
+    <section id="nav-section">
+        <div class="container-fluid bg-warning">
+            <ul class="nav px-3">
+                <li class="nav-item"><a  class="nav-link" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="nav-item"><a  class="nav-link" href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="nav-item"><a  class="nav-link" href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="nav-item"><a  class="nav-link" href=""><i class="fa-brands fa-google"></i></a></li>
+                <p class="nav-item ml-auto pt-2"><i class="fa-solid fa-phone"></i> 91+ 1234567890</p>
+            </ul>
+        </div>
+    </section>
+    <!--nav section end-->
+    <!--navbar section start-->
+    <section class=" sticky-top">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=""><h3>Home Loan</h3></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#abc">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="abc">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-3">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="#likenav" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item dropdown px-3">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">Services</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#section1">Loan Products</a>
+                                <a class="dropdown-item" href="#section2">Loan Process</a>
+                                <a class="dropdown-item" href="#section3">Loan News</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="#fqs-section" class="nav-link">FQ's</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="#section4" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--navbar section end-->
+    <!--banner section start-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/img8.webp" alt="">
+                <div class="carousel-caption">
+                    <h3>Home Loan Application</h3>
+                    <p>"Streamline Your Dream Home Journey: Simple, Quick, and Hassle-Free Home Loan Application Process"</p>
+                    <a href="#likenav">Read More...</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img7.webp" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img6.webp" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img5.webp" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img4.webp" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/img3.webp" alt="">
+            </div>
+        </div>
+        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span></a>
+        <a href="#demo" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span></a>
+    </div>
+    <!--banner section end-->
+    <!--likenav section start-->
+    <section id="likenav">
+        <div class="container-fluid">
+            <ul class="nav nav-pills nav-justified my-1">
+                <li class="nav-item" role="tablist">
+                    <a class="nav-link active" data-toggle="pill" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#fqs">FQ's</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="about" class="container-fluid tab-pane active py-4">
+                    <h4>About</h4>     
+                    <p> <b>A home loan is a financial solution designed to help individuals fulfill their dream of owning a home. It provides the necessary funds to purchase, construct, or renovate a property, offering flexibility and convenience in achieving your goals. With competitive interest rates and customizable repayment options, home loans are tailored to suit different budgets and lifestyles. <br> <br> Whether you're a first-time buyer or looking to invest in your next property, a home loan can make it possible. Lenders offer various schemes to meet diverse needs, ensuring affordability and transparency.Most home loans come with tax benefits, further reducing the financial burden.Choosing the right home loan involves assessing factors like interest rates, tenure, and monthly installments. With expert guidance and a seamless application process, you can turn your homeownership dreams into reality. Embark on your journey today and take the first step toward securing your future.</b></p>
+                </div>
+                <div id="home" class="container-fluid tab-pane fade py-4">
+                    <h4>Home</h4>
+                    <p> <u><b>Home Loan: Turning Your Dream Home Into Reality</b></u><br><br> <b>A home loan is the key to making your dream of owning a house come true. Whether you're purchasing your first home, upgrading to a larger space, or building a custom house, a home loan provides the financial support you need. Designed to fit various budgets and repayment capabilities, home loans come with flexible tenure options and competitive interest rates to suit diverse needs.With simple eligibility criteria, minimal documentation, and a seamless application process, getting a home loan has never been easier. Many lenders offer pre-approved loans, personalized services, and online tools to calculate EMIs, ensuring transparency and convenience.A home loan not only helps you achieve property ownership but also comes with tax benefits under the Income Tax Act, making it a wise financial choice. Begin your journey today and move closer to the comfort and security of your own home. </b> </p>
+                </div>
+                <div id="contact" class="container-fluid tab-pane fade py-4">
+                    <h4>Contact</h4>
+                    <p> <b>Looking to turn your dream home into a reality? Our home loan services are designed to make the process simple and stress-free. Whether you're buying your first house, upgrading to a bigger space, or building your dream home from scratch, we are here to support you every step of the way. With competitive interest rates, flexible repayment options, and a quick approval process, we tailor our solutions to meet your unique needs.Have questions or need personalized guidance? Our dedicated team of experts is just a call or message away. We understand that every homebuyer’s journey is unique, and we're committed to helping you navigate the loan process with ease and confidence.Reach out today to learn more about our home loan options or to begin your application. Let us help you move closer to owning the home you’ve always wanted!</b></p>
+                </div>
+                <div id="fqs" class="container-fluid tab-pane fade py-4">
+                    <h4>FQ's </h4>
+                    <p><b>A home loan is a financial solution designed to help individuals purchase, construct, or renovate their dream homes. Offered by banks and financial institutions, home loans allow borrowers to acquire property by providing funds upfront, which are repaid in monthly installments over a specific tenure. These loans typically come with flexible repayment options and competitive interest rates, either fixed or floating, based on the borrower’s preference.To apply, borrowers need to meet eligibility criteria, including age, income, credit score, and employment stability. Lenders also evaluate the property's value and legal status before sanctioning the loan. Most home loans cover up to 75-90% of the property's cost, requiring borrowers to contribute the remaining amount as a down payment.Home loans often offer tax benefits under sections 80C and 24 of the Income Tax Act, making them an attractive option for homebuyers seeking financial ease.</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--likenav section end-->
+    <!--fqs section start-->
+    <section id="fqs-section">
+        <div id="xyz">
+            <div class="accordion px-5 my-5">
+                <div class="card mb-3">
+                    <div class="card-header bg-info text-white" data-target="#msg1" data-toggle="collapse">
+                        <h4> What documents are required to apply for a home loan?</h4>
+                    </div>
+                    <div class="card-body collapse show fade" id="msg1" data-parent="#xyz">
+                        <p>You will need identity proof (e.g., Aadhaar, PAN card), address proof, income proof (salary slips or IT returns), property documents, and bank statements for the last 6 months. Additional documents may be requested depending on the lender.</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-header bg-info text-white" data-target="#msg2" data-toggle="collapse">
+                        <h4>What is the minimum credit score required for a home loan?</h4>
+                    </div>
+                    <div class="card-body collapse fade" id="msg2" data-parent="#xyz">
+                        <p>Most lenders require a credit score of 650-750 or higher to approve a home loan. A higher credit score increases your chances of getting better interest rates.</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-header bg-info text-white" data-target="#msg3" data-toggle="collapse">
+                        <h4>How long does it take to get a home loan approved?</h4>
+                    </div>
+                    <div class="card-body collapse fade" id="msg3" data-parent="#xyz">
+                        <p>The approval process typically takes 7-15 business days, depending on the lender and the completeness of your application and documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <!--fqs section end-->
+    <!--cards1 section start-->
+    <section id="section1">
+        <div class="text-center text-danger ">
+            <h1>Loan products we offer</h1>
+            <p class="text-primary">speed up the loan process now</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row mt-5 px-5">
+                <div class="col-12 col-sm-6 col-md-4 mb-3" >
+                    <div class="card shadow h-100">
+                        <div class="card-body">
+                            <i class="fa-solid fa-house-chimney"></i>
+                            <h3 class="py-3">1.Buying a home</h3>
+                            <p>"Ready to buy your dream home? Our home loan solutions make it easy and stress-free. Enjoy competitive interest rates, flexible repayment options, and personalized assistance at every step. Whether you're a first-time buyer or upgrading, we're here to help you turn your dream into reality."</p><a href="">Apply now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-3">
+                    <div class="card shadow h-100">
+                        <div class="card-body">
+                            <i class="fa-solid fa-building"></i>
+                            <h3 class="py-3">2.Refinancing</h3>
+                            <p>"Refinance your home loan with ease and save more! Lower your interest rates, reduce monthly payments, or access additional funds for your needs. Our seamless refinancing process helps you achieve financial flexibility without stress. Explore customized options and take control of your finances today. Your dream home deserves better rates!"</p>
+                            <a href="">Apply now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-3">
+                    <div class="card shadow h-100">
+                        <div class="card-body">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <h3 class="py-3">3.credit services</h3>
+                            <p>"Empower your homeownership dreams with our tailored credit services. We offer competitive interest rates, flexible repayment options, and expert guidance throughout your home loan journey. Whether you're a first-time buyer or upgrading, our solutions ensure a smooth, hassle-free process to help you secure your dream home with confidence and ease."</p> <a href="">Apply now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--cards1 section end-->
+    <!--cards2 section start-->
+    <section id="section2">
+        <div class="text-center text-danger mt-5">
+            <h1>Fast & Easy application process</h1>
+            <p class="text-primary">follow the application details to fill</p>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row px-5" id="npq">
+                <div class="col-md-6 col-12 h-100 mb-4 accordion">
+                    <div class="card mb-2">
+                        <div class="card-header" data-target="#msg1" data-toggle="collapse">
+                            <h4><i class="fa-solid fa-circle-check"></i> Choose loan amount</h4>
+                        </div>
+                        <div class="card-body show hide" id="msg1" data-parent="#npq">
+                            <p>"Select the loan amount that suits your needs and financial goals. Our flexible options allow you to borrow as per your requirements, ensuring an easy and stress-free home loan experience. Calculate your eligibility, choose a comfortable repayment plan, and start your journey toward homeownership today!"</p>
+                        </div>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-header" data-target="#msg2" data-toggle="collapse">
+                            <h4><i class="fa-solid fa-circle-check"></i> Get your loan approved</h3>
+                        </div>
+                        <div class="card-body collapse" id="msg2" data-parent="#npq">
+                            <p>"Unlock the door to your dream home with our easy loan approval process. Submit your application today and experience fast, hassle-free approvals. Our expert team will guide you through each step, ensuring a smooth journey from application to approval. Get started now and make homeownership a reality!"</p>
+                        </div>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-header" data-target="#msg3" data-toggle="collapse">
+                            <h4><i class="fa-solid fa-circle-check"></i> For new home purchase</h4>
+                        </div>
+                        <div class="card-body collapse" id="msg3" data-parent="#npq">
+                            <p>"Unlock the door to your dream home with our tailored home loan solutions. Whether you're buying your first house or upgrading, our flexible repayment plans and competitive interest rates ensure a smooth and affordable journey. Apply today and take the first step towards homeownership with ease and confidence."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12 h-100 mb-4">
+                    <img src="./images/img1.webp" alt="" class="w-100 h-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--cards2 section end-->
+    <!--cards3 section start-->
+    <section id="section3">
+        <div class="text-center text-danger mt-5">
+            <h1>Latest News From Loan Company</h1>
+            <p class="text-primary">Speed up the loan process</p>
+        </div>
+        <div class="container-fluid mt-5 px-5">
+            <div class="row px-5">
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <div class="card shadow  h-100">
+                        <img src="./images/img2.webp" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Smart Move Tips</h3>
+                            <p class="card-text">"Make a smart move with your home loan! Consider your budget, compare interest rates, and choose a loan term that suits your financial goals. Keep track of your credit score, explore government schemes, and seek expert advice to make informed decisions for a smooth and successful home buying journey."</p>
+                            <a href="" class="card-link"> Read more..</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>Last Updated on May 12,2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <div class="card shadow h-100">
+                        <img src="./images/img3.webp" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">A Big Time Saver</h3>
+                            <p class="card-text">"Save time and effort with our streamlined home loan application process. No need for endless paperwork or waiting around. Our quick and easy online platform allows you to apply in minutes, with faster approvals and minimal documentation. Get the home loan you need, when you need it!"</p>
+                            <a href="" class="card-link"> Read more..</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>Last Updated on May 22,2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-3">
+                    <div class="card shadow h-100">
+                        <img src="./images/img4.webp" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Is The Now Time To Fix ?</h3>
+                            <p class="card-text">"Is now the right time to fix your home loan rate? With fluctuating interest rates, locking in a fixed rate can offer financial stability and peace of mind. Take control of your repayments and avoid market uncertainty. Explore our flexible options and secure your future with a fixed-rate home loan today!"</p>
+                            <a href="" class="card-link" >Read more..</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>Last Updated on May 30,2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--cards3 section end-->
+    <!--footer section start-->
+    <section id="section4">
+        <div class="container-fluid px-5 bg-dark text-white">
+            <div class="row p-5">
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <h4>About Us </h4>
+                    <p>A home loan is a financial solution designed to help individuals fulfill their dream of owning a home. It provides the necessary funds to purchase, construct, or renovate a property, offering flexibility and convenience in achieving your goals. With competitive interest rates and customizable repayment options, home loans are tailored to suit different budgets and lifestyles.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <h4>Contact Us</h4>
+                    <h5>Address :</h5>
+                    <p>9-2 , Guntur , Lakshmipuram - 563772</p>
+                    <h5>Phone No:</h5>
+                    <p>91+ 907638379</p>
+                    <p>91+ 907634479</p>
+                    <h5>Email :</h5>
+                    <p>loanapp123@gmail.com</p>
+                    <p>loanapp123@gmail.com</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <h4>Recent Posts</h4>
+                    <div>
+                        <img src="./images/img6.webp" alt="" class="w-100 h-100">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mb-3">
+                    <h4>Subscribe From</h4>
+                    <p>Whether you're a first-time buyer or looking to invest in your next property, a home loan can make it possible. Lenders offer various schemes to meet diverse needs, ensuring affordability and transparency.Most home loans come with tax benefits, further reducing the financial burden.Choosing the right home loan involves assessing factors like interest rates, tenure, and monthly installments.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control py-2 my-1" placeholder="Your email" for="i">
+                            <div class="input-group-append">
+                                <label>
+                                    <button type="submit" id="i" class="input-group-text py-2 my-1"><i class="fa-solid fa-envelope"></i></button>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-between px-5">
+                <p> <i class="fa-regular fa-copyright"></i> 2024 Home Loan . All Rights Reserved | Designed By <span class="text-warning">Satishhh</span></p>
+                <ul class="d-flex list-unstyled">
+                    <li class="px-3"><a href="" class="text-white" style="font-size: 22px;"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="px-3"><a href="" class="text-white" style="font-size: 22px;"><i class="fa-brands fa-instagram"></i></i></a></li>
+                    <li class="px-3"><a href="" class="text-white" style="font-size: 22px;"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="px-3"><a href="" class="text-white" style="font-size: 22px;"><i class="fa-brands fa-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--footer section -->
+</body>
+</html>

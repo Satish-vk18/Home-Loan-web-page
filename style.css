@@ -1,0 +1,24 @@
+#section1 .container-fluid i{
+    color: orange;
+    font-size: 30px;
+}
+#section2 .container-fluid i{
+    color: green;
+}
+#nav-section i{
+    color: red;
+    font-size: 20px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 550px;
+}
+.carousel-caption{
+    top: 10px;
+    left: 5px;
+    padding: 20px;
+}
+#section1 a:hover{
+    text-decoration: none;
+    color: red;
+}
